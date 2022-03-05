@@ -2,6 +2,7 @@ import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 
 class SqfLiteService {
+  // unique database
   static Database? _db;
 
   Future<Database> get getDatabase async {
